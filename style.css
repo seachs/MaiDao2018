@@ -517,8 +517,8 @@ a:hover, a:active {
     margin-top: 32px;
 }
 
-.entry-content {
-    font-size: 24px;
+.entry-body {
+    font-size: 18px;
     line-height: 1.7;
     color: #FFFFFF;
 }
