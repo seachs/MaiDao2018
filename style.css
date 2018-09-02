@@ -477,7 +477,7 @@ a:hover, a:active {
 
 @media screen and (min-width: 1200px){
     .hero-content {
-        padding-top: 20%;
+        padding-top: 15%;
     }
 
     .swiper-button-next {
@@ -494,7 +494,7 @@ a:hover, a:active {
 # Homepage - Info Section
 --------------------------------------------------------------*/
 .homepage-info-section {
-    padding: 120px 0;
+    padding: 20px 0;
     background: #fff;
 }
 
@@ -517,10 +517,10 @@ a:hover, a:active {
     margin-top: 32px;
 }
 
-.homepage-info-section .entry-content p {
-    font-size: 18px;
+.entry-content {
+    font-size: 24px;
     line-height: 1.7;
-    color: #777777;
+    color: #FFFFFF;
 }
 
 .homepage-info-section .entry-footer a {
@@ -628,15 +628,16 @@ a:hover, a:active {
     }
 
     .homepage-featured-events .positioning-event-2 {
-        width: 210px;
-        top: 192px;
+        width: 500px;
+        height: 200px;
+        top: 0px;
         left: 320px;
     }
 
     .homepage-featured-events .positioning-event-3 {
         width: 210px;
-        top: 75px;
-        left: 560px;
+        top: 100px;
+        left: 700px;
     }
 
     .homepage-featured-events .positioning-event-4 {
@@ -659,14 +660,14 @@ a:hover, a:active {
 
     .homepage-featured-events .positioning-event-7 {
         width: 210px;
-        top: 457px;
-        left: 160px;
+        top: 300px;
+        left: 40px;
     }
 
     .homepage-featured-events .positioning-event-8 {
         width: 290px;
-        top: 457px;
-        left: 400px;
+        top: 200px;
+        left: 320px;
     }
 
     .homepage-featured-events .positioning-event-9 {
@@ -698,15 +699,16 @@ a:hover, a:active {
     }
 
     .homepage-featured-events .positioning-event-2 {
-        width: 255px;
-        top: 230px;
+        width: 500px;
+        height: 200px;
+        top: 0px;
         left: 380px;
     }
 
     .homepage-featured-events .positioning-event-3 {
         width: 255px;
         top: 90px;
-        left: 665px;
+        left: 850px;
     }
 
     .homepage-featured-events .positioning-event-4 {
@@ -729,14 +731,14 @@ a:hover, a:active {
 
     .homepage-featured-events .positioning-event-7 {
         width: 255px;
-        top: 546px;
-        left: 190px;
+        top: 300px;
+        left: 40px;
     }
 
     .homepage-featured-events .positioning-event-8 {
         width: 350px;
-        top: 546px;
-        left: 475px;
+        top: 200px;
+        left: 430px;
     }
 
     .homepage-featured-events .positioning-event-9 {
@@ -773,7 +775,6 @@ a:hover, a:active {
     font-weight: bold;
     line-height: 1;
     color: #232127;
-    background: url("images/next-events-header-bg.png") no-repeat center;
     text-align: center;
 }
 
@@ -793,6 +794,10 @@ a:hover, a:active {
 .homepage-next-events .next-event-wrap {
     margin-top: 96px;
     text-align: center;
+}
+
+.homepage-next-events .first-item {
+    margin-top: 20px;
 }
 
 .homepage-next-events .next-event-wrap figure {
@@ -982,7 +987,7 @@ a:hover, a:active {
 }
 
 .events-partners {
-    padding: 120px 0;
+    padding: 20px 0;
 }
 
 .events-partners .entry-title {
@@ -990,10 +995,46 @@ a:hover, a:active {
 }
 
 .events-partners-logos .event-partner-logo {
-    width: 20%;
-    min-width: 220px;
-    margin-top: 80px;
+    width: 40%;
+    margin-top: 40px;
+    margin-bottom: 40px;
     text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    padding: 50px;
+    margin-left: 20px;
+}
+
+.events-sponsor-logos .event-sponsor-logo {
+    width: 40%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.events-partners-logos .explorasian {
+    width: 50%;
+}
+
+.events-partners-logos .vss {
+    width: 20%;
+    padding: 0px;
+}
+
+.events-partners-logos .thodia {
+    width: 20%;
+    padding: 40px;
+}
+
+.events-partners-logos .event-partner-logo img {
+    width: 100%;
+}
+
+.events-sponsor-logos .event-sponsor-logo img {
+    width: 100%;
 }
 
 /*--------------------------------------------------------------
